@@ -19,11 +19,25 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* Publish-specific rules */
 :root {
     --publish-accent-color: #C3535D;
     --publish-link-hover: #D33B47;
     --publish-text2: #363636;
 }
+
+nav#dw__navbar {
+    background: white;
+}
+
+nav#dw__navbar>div.dw-container.container {
+    margin: 1rem auto;
+}
+
+div#dw__breadcrumbs>hr {
+    display: none;
+}
+/* */
 
 html {
     font-family: sans-serif;
