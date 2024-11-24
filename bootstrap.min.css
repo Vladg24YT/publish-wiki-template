@@ -42,6 +42,10 @@ nav#dw__navbar>div.dw-container.container {
 #dw__breadcrumbs>hr {
     display: none;
 }
+
+#dw__search > div > div > button {
+    background-color: var(--publish-accent-color);
+}
 /* */
 
 html {
