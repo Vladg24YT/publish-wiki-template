@@ -34,7 +34,7 @@ nav#dw__navbar>div.dw-container.container {
     margin: 1rem auto;
 }
 
-div#dw__breadcrumbs>hr {
+#dw__breadcrumbs>hr {
     display: none;
 }
 /* */
