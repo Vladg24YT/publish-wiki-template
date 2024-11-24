@@ -21,9 +21,14 @@
 
 /* Publish-specific rules */
 :root {
-    --publish-accent-color: #C3535D;
+    --publish-accent-color: #C3535D; /* red */
     --publish-link-hover: #D33B47;
     --publish-text2: #363636;
+    --publish-text: #282828;
+    --publish-grey: #949494;
+    --publish-dark-grey: #4E4E4E;
+    --publish-light-grey: #DADADA;
+    --publish-lightest-grey: #F8F8F8;
 }
 
 nav#dw__navbar {
@@ -1432,7 +1437,7 @@ body {
     font-family: Inter, serif;
     font-size: 15px;
     line-height: 1.42857143;
-    color: #777777;
+    color: var(--publish-text);
     background-color: #ffffff
 }
 
@@ -1546,7 +1551,7 @@ h6,
     font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
     font-weight: 700;
     line-height: 1.1;
-    color: #000000
+    color: var(--publish-text);
 }
 
 h1 small,
