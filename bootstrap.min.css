@@ -43,6 +43,10 @@ nav#dw__navbar>div.dw-container.container {
     display: none;
 }
 
+header nav #dw__tagline {
+    display: none;
+}
+
 #dw__search > div > div > button {
     background-color: var(--publish-accent-color);
 }
